@@ -329,9 +329,8 @@
                                     <action selector="deleteNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPV-8q-s6Y"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="qOD-6S-qSb">
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="qOD-6S-qSb">
                                 <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -350,10 +349,12 @@
                             <constraint firstItem="Tyf-Rl-vru" firstAttribute="top" secondItem="X62-8I-YhD" secondAttribute="top" id="XVb-Yt-ahz"/>
                             <constraint firstItem="XtO-cC-nfp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xz8-9z-9Ht"/>
                             <constraint firstItem="XtO-cC-nfp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yff-Tt-w9O"/>
+                            <constraint firstItem="qOD-6S-qSb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bbR-aI-FCA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YLv-30-FDh" secondAttribute="bottom" constant="12" id="bti-bX-6iY"/>
                             <constraint firstItem="Npr-WP-mpn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eG3-hl-DAJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YLv-30-FDh" secondAttribute="trailing" constant="20" id="hd3-vG-3zl"/>
                             <constraint firstItem="YLv-30-FDh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iwT-Jz-vSv"/>
+                            <constraint firstItem="qOD-6S-qSb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="npW-h9-cNZ"/>
                             <constraint firstItem="X62-8I-YhD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="plD-VZ-jui"/>
                             <constraint firstItem="dc9-w9-uQn" firstAttribute="top" secondItem="XtO-cC-nfp" secondAttribute="bottom" constant="20" id="t00-lX-Eec"/>
                         </constraints>
@@ -381,10 +382,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
